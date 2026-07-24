@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name', 'MJP Cargo') }}</title>
+    <title>{{ config('app.name', 'PT XYZ') }}</title>
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=space-grotesk:400,500,600,700|fraunces:600,700" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -11,7 +11,7 @@
 <body>
 <div class="page">
     <aside class="sidebar">
-        <div class="logo">MJP <span>Cargo</span></div>
+        <div class="logo">PT <span>XYZ</span></div>
         <div class="muted">Fleet Selection System</div>
         <nav class="nav">
             <a href="{{ route('dashboard') }}" class="{{ request()->routeIs('dashboard') ? 'active' : '' }}">Dashboard</a>

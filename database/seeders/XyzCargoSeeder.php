@@ -7,7 +7,7 @@ use App\Models\AlternativeValue;
 use App\Models\Criteria;
 use Illuminate\Database\Seeder;
 
-class MjpCargoSeeder extends Seeder
+class XyzCargoSeeder extends Seeder
 {
     public function run(): void
     {

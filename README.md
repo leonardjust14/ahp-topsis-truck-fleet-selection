@@ -1,12 +1,14 @@
-# MJP Cargo — Fleet Selection Decision Support System (AHP-TOPSIS)
+# PT XYZ — Fleet Selection Decision Support System (AHP-TOPSIS)
 
-A web-based Decision Support System (DSS) that helps **PT Manado Jaya Perkasa (MJP Cargo)**, a logistics company in North Sulawesi, Indonesia, select the optimal Light Duty Truck for fleet ownership using an integrated **AHP-TOPSIS** methodology.
+A web-based Decision Support System (DSS) that helps **PT XYZ**, a logistics company based in Manado, North Sulawesi, Indonesia, select the optimal Light Duty Truck for fleet ownership using an integrated **AHP-TOPSIS** methodology.
 
 Built with Laravel + MySQL as a Multi-Criteria Decision Making (MCDM) final project at Universitas Kristen Petra.
 
+> **Note:** "PT XYZ" is an anonymized stand-in for the real client, used for public portfolio purposes. The city (Manado) and all analysis/data reflect the actual project.
+
 ## Background
 
-MJP Cargo serves Indomaret and Alfamidi distribution routes across North Sulawesi, Gorontalo, and North Maluku — terrain dominated by narrow, hilly roads. The company currently leases all 12 of its trucks and is evaluating a transition to fleet ownership. Choosing the right truck involves trade-offs between purchase price, fuel efficiency, payload capacity, and spare parts availability — criteria that often conflict with each other.
+PT XYZ serves Indomaret and Alfamidi distribution routes across North Sulawesi, Gorontalo, and North Maluku — terrain dominated by narrow, hilly roads. The company currently leases all 12 of its trucks and is evaluating a transition to fleet ownership. Choosing the right truck involves trade-offs between purchase price, fuel efficiency, payload capacity, and spare parts availability — criteria that often conflict with each other.
 
 This system applies a structured, two-stage MCDM approach:
 
@@ -51,8 +53,8 @@ Full calculation breakdown, decision matrix, and analysis available in [`docs/`]
 ## Getting Started
 
 ```bash
-git clone https://github.com/leonardjust14/project-mcdm-mjp-cargo.git
-cd project-mcdm-mjp-cargo
+git clone https://github.com/leonardjust14/ahp-topsis-truck-fleet-selection.git
+cd ahp-topsis-truck-fleet-selection
 docker-compose up -d
 composer install
 cp .env.example .env
@@ -67,4 +69,9 @@ Visit `http://localhost:8000`.
 
 Final project for Multiple Criteria Decision Making (MCDM), Information Systems Business, Universitas Kristen Petra (2026).
 
-- Leonard Caesar Justin 
+| Name | Role |
+|------|------|
+| **Leonard Caesar Justin** (Leo) | Field context & analysis — problem identification, criteria definition (payload, fuel efficiency, price, spare parts availability), owner interviews/questionnaires for AHP pairwise comparison judgments, and end-to-end AHP-TOPSIS implementation (raw data → consistency check → final ranking) |
+| **John Dave Limanto** | Frontend & backend development (Laravel) |
+| **Rayner Orville Wijaya** | Frontend & backend development (Laravel) |
+| **Ariel Andhika Dumais** | Frontend & backend development (Laravel) |
